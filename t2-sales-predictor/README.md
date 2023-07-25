@@ -1,7 +1,7 @@
 
-# Iris Classification System using MachineLearning 🐍
+# Sales prediction of a company based on Advertisement data 🐍
 <div align='center'>
-<img src='https://github.com/software-babooi/ideal-potato-oibsip/assets/110555361/990476f8-9c47-4938-9889-87811658df1e'>
+<img src='https://github.com/software-babooi/ideal-potato-oibsip/assets/110555361/b4fee953-9133-43f7-8e53-ea3a11a3189b'>
 </div>
 <br>
 
@@ -24,9 +24,9 @@
 <br>
 
 ## 2. 📝 __Description__
-The "Iris Classifier System Using Deep Learning" is a software project that employs advanced deep learning algorithms to accurately classify iris flowers based on their species. It is designed for researchers, botanists, and enthusiasts interested in iris flower classification and taxonomy.
+The __Sales Prediction of a Company Based on Advertisement Data__ project develops a predictive model to forecast sales based on TV, radio, and newspaper advertisement costs. It is suitable for marketers, analysts, and businesses seeking to optimize their advertising strategies and maximize sales potential.
 
-The reposistory contains the code in the modular fashion. I mean working wiht the reposistory will give the industry level standards of coding. 
+The repository is organized in a modular fashion, adhering to industry-level coding standards. Working with this repository ensures a professional and structured approach to code development.
 
 
 ## 3. 🌲 __Project Directory Structure__  
@@ -35,7 +35,7 @@ The reposistory contains the code in the modular fashion. I mean working wiht th
 ├── README.md
 ├── app.py
 ├── notebook
-│   └── IRIS_1.csv 📖
+│   └── Advertising.csv 📖
 ├── requirements.txt
 ├── setup.py
 ├── source
@@ -53,16 +53,14 @@ The reposistory contains the code in the modular fashion. I mean working wiht th
 │   │   └── testing_pipeline.py
 │   └── utlis.py
 └── static
-    ├── iris-setosa.png
-    ├── iris-versicolor.jpeg
-    ├── iris-virginica.png
-    └── main.jpeg
+    └── main.png
+
 
 ```
 1. __Dockerfile__: This file contains the instructions to build a Docker image for your project, facilitating easy deployment and reproducibility.
 2. __README.md__: The README file provides essential information about the project, including its description, usage instructions, and deployment details.
-3. __app.py__: This file contains the code for the user interface of your Iris Classifier System.
-4. __notebook__: This directory stores the notebook containing the dataset IRIS_1.csv.
+3. __app.py__: This file contains the code for the user interface of your __Sales prediction of a company based on Advertisement data system__.
+4. __notebook__: This directory stores the notebook containing the dataset __Advertisement.csv__.
 5. __requirements.txt__: The requirements file lists all the dependencies and their versions necessary for your project. These can be easily installed using the provided command.
 6. __setup.py__: This file is typically used for package installation and distribution if you plan to package your project for distribution.
 7. __source__: The source directory holds the core components of your project:
@@ -71,14 +69,14 @@ The reposistory contains the code in the modular fashion. I mean working wiht th
 + __loggers.py__: Contains code related to logging and log handling.
 + __pipelines.py__: This directory likely includes a __testing_pipeline.py__ module that defines a pipeline for testing your models.
 + __utils.py__: Contains utility functions or helper code utilized throughout the project.
-8. __static__: This directory holds static files such as images (__iris-setosa.png__, __iris-versicolor__.jpeg, __iris-virginica.png__, and __main.jpeg__), which are potentially used in the user interface or documentation.
+1. __static__: This directory holds static files such as image (__main.png__), which is potentially used in the user interface or documentation.
    
 ## 4. :gear: __Run Locally__
 
 Clone the project
 
 ```bash
-git clone https://link-to-project
+git clone https://github.com/software-babooi/ideal-potato-oibsip/tree/main/t2-sales-predictor
 ```
 
 Go to the project directory
@@ -105,14 +103,14 @@ python3 -m streamlit run app.py
 ```
 ## 5. :ship: __Deployment via Pulling the Docker Image__
 
-Before proceeding with the deployment using Docker, it is essential to ensure that port 9999 is available on your system. The Docker image has been built using this specified port number. If you wish to change the port number, follow the deployment process using Docker as outlined below. This will help avoid conflicts and ensure seamless communication between the Docker container and your system.
+Before proceeding with the deployment using Docker, it is essential to ensure that port 9998 is available on your system. The Docker image has been built using this specified port number. If you wish to change the port number, follow the deployment process using Docker as outlined below. This will help avoid conflicts and ensure seamless communication between the Docker container and your system.
 
 + __Pulling the image from my registry__:
 
-<p>&nbsp  &nbsp  &nbsp  &nbsp  &nbspBefore proceeding with pulling the image, kindly take note that the size of the image is approximately 4GB.</p>
+<p>&nbsp  &nbsp  &nbsp  &nbsp  &nbspBefore proceeding with pulling the image, kindly take note that the size of the image is approximately 3.99GB.</p>
 
 ```bash
-docker pull guna1/oibsip-t1-iris-classifier:latest
+docker pull guna1/oibsip-t2-sales-predictor:latest
 ```
 
 
@@ -120,7 +118,7 @@ docker pull guna1/oibsip-t1-iris-classifier:latest
 + __Running the image__:
 
 ```bash
-docker run -p 9999:8501 guna1/oibsip-t1-iris-classifier:latest
+docker run -p 9998:8501 guna1/oibsip-t2-sales-predictor:latest
 ```
 
 ## 6. :ship: __Deployment using Docker__
@@ -131,7 +129,7 @@ To implement the deployment of this project in Docker and change the port number
 First, check the available ports on your system to find one that is not in use.
 
 2. __Replace Port Number in Dockerfile__:
-In the Dockerfile, locate the line with "EXPOSE 9999" (where 9999 is the default port). Replace this number with the desired port number from step 1.
+In the Dockerfile, locate the line with "EXPOSE 9998" (where 9999 is the default port). Replace this number with the desired port number from step 1.
 
 <p>&nbsp  &nbsp  &nbsp  &nbsp  &nbspBy following these instructions, you can set the Docker container to use your desired system port, ensuring smooth deployment and communication without conflicts.
 </p>
