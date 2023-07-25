@@ -24,9 +24,9 @@
 <br>
 
 ## 2. 📝 __Description__
-The "Iris Classifier System Using Deep Learning" is a software project that employs advanced deep learning algorithms to accurately classify iris flowers based on their species. It is designed for researchers, botanists, and enthusiasts interested in iris flower classification and taxonomy.
+The __Iris Classifier System Using MachineLearning__ is a software project that employs advanced deep learning algorithms to accurately classify iris flowers based on their species. It is designed for researchers, botanists, and enthusiasts interested in iris flower classification and taxonomy.
 
-The reposistory contains the code in the modular fashion. I mean working wiht the reposistory will give the industry level standards of coding. 
+The repository is organized in a modular fashion, adhering to industry-level coding standards. Working with this repository ensures a professional and structured approach to code development. 
 
 
 ## 3. 🌲 __Project Directory Structure__  
@@ -61,7 +61,7 @@ The reposistory contains the code in the modular fashion. I mean working wiht th
 ```
 1. __Dockerfile__: This file contains the instructions to build a Docker image for your project, facilitating easy deployment and reproducibility.
 2. __README.md__: The README file provides essential information about the project, including its description, usage instructions, and deployment details.
-3. __app.py__: This file contains the code for the user interface of your Iris Classifier System.
+3. __app.py__: This file contains the code for the user interface of your __Iris Classifier System__.
 4. __notebook__: This directory stores the notebook containing the dataset IRIS_1.csv.
 5. __requirements.txt__: The requirements file lists all the dependencies and their versions necessary for your project. These can be easily installed using the provided command.
 6. __setup.py__: This file is typically used for package installation and distribution if you plan to package your project for distribution.
@@ -71,14 +71,14 @@ The reposistory contains the code in the modular fashion. I mean working wiht th
 + __loggers.py__: Contains code related to logging and log handling.
 + __pipelines.py__: This directory likely includes a __testing_pipeline.py__ module that defines a pipeline for testing your models.
 + __utils.py__: Contains utility functions or helper code utilized throughout the project.
-8. __static__: This directory holds static files such as images (__iris-setosa.png__, __iris-versicolor__.jpeg, __iris-virginica.png__, and __main.jpeg__), which are potentially used in the user interface or documentation.
+8. __static__: This directory holds static files such as images (__iris-setosa.png__, __iris-versicolor.jpeg__, __iris-virginica.png__, and __main.jpeg__), which are potentially used in the user interface or documentation.
    
 ## 4. :gear: __Run Locally__
 
 Clone the project
 
 ```bash
-git clone https://link-to-project
+git clone https://github.com/software-babooi/ideal-potato-oibsip/tree/main/t1-iris-classifier
 ```
 
 Go to the project directory
@@ -109,7 +109,7 @@ Before proceeding with the deployment using Docker, it is essential to ensure th
 
 + __Pulling the image from my registry__:
 
-<p>&nbsp  &nbsp  &nbsp  &nbsp  &nbspBefore proceeding with pulling the image, kindly take note that the size of the image is approximately 4GB.</p>
+<p>&nbsp  &nbsp  &nbsp  &nbsp  &nbspBefore proceeding with pulling the image, kindly take note that the size of the image is approximately 3.99GB.</p>
 
 ```bash
 docker pull guna1/oibsip-t1-iris-classifier:latest
