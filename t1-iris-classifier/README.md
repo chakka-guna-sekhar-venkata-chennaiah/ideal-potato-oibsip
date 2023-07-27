@@ -1,5 +1,6 @@
-
-# Iris Classification System using MachineLearning 🐍
+<div align='center'>
+<h1>Iris Classification System using MachineLearning 🐍</h1>
+</div>
 <div align='center'>
 <img src='https://github.com/software-babooi/ideal-potato-oibsip/assets/110555361/990476f8-9c47-4938-9889-87811658df1e'>
 </div>
