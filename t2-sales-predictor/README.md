@@ -42,9 +42,8 @@ The repository is organized in a modular fashion, adhering to industry-level cod
 │   ├── __init__.py
 │   ├── components
 │   │   ├── __init__.py
-│   │   ├── data_loading.py
-│   │   ├── keras_tuning.py
-│   │   ├── model_training.py
+│   │   ├── data_loading.py 
+│   |   ├── model_training.py
 │   │   └── transformation.py
 │   ├── exception.py
 │   ├── loggers.py
