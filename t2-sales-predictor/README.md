@@ -169,9 +169,7 @@ docker push account_name/image_name:latest
 This process allows you to store and retrieve the image from the registry during future deployments, making it more efficient and accessible.
 ## 7. 📽 __Demo__
 
-Insert gif or link to demo
 
 
-## 8. 📷 __Screenshots__
+https://github.com/software-babooi/ideal-potato-oibsip/assets/110555361/a0a52bfc-5262-4cd0-8a68-3a2eb3b3dc0a
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
