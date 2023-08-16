@@ -1,5 +1,7 @@
 
-# Email Spam Classifier using MachineLearning 🐍
+<div align='center'>
+<h1><p>📧 Email Spam Classifier System 📧</p></h1>
+</div>
 <div align='center'>
 <img src='https://github.com/software-babooi/ideal-potato-oibsip/assets/110555361/b3071a33-f3c4-410a-a0ec-866c6c1ac38c'>
 </div>
@@ -11,7 +13,8 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/1.22.0-green?style=for-the-badge&logo=streamlit&logoColor=%23FF4B4B&label=Streamlit&labelColor=%23FFFFFF&color=%23008000">&nbsp
 <img alt="Static Badge" src="https://img.shields.io/badge/1.2.2-green?style=for-the-badge&logo=scikit-learn&logoColor=%23F7931E&label=scikit-learn&labelColor=%23FFFFFF&color=%23008000">&nbsp
 <img alt="Static Badge" src="https://img.shields.io/badge/1.23.5-green?style=for-the-badge&logo=numpy&logoColor=%23013243&label=numpy&labelColor=%23FFFFFF&color=%23008000">&nbsp
-<img alt="Static Badge" src="https://img.shields.io/badge/1.5.2-green?style=for-the-badge&logo=pandas&logoColor=%23150458&label=pandas&labelColor=%23FFFFFF&color=%23008000">
+<img alt="Static Badge" src="https://img.shields.io/badge/1.5.2-green?style=for-the-badge&logo=pandas&logoColor=%23150458&label=pandas&labelColor=%23FFFFFF&color=%23008000">&nbsp
+<img alt="Static Badge" src="https://img.shields.io/badge/20.10.21-green?style=for-the-badge&logo=docker&logoColor=%23150458&label=docker&labelColor=%23FFFFFF&color=%23008000">
 
 
 
