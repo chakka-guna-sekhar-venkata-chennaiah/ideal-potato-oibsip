@@ -1,0 +1,12 @@
+streamlit
+scikit-image
+scikit-learn
+matplotlib
+pandas
+numpy
+dill
+tensorflow==2.8.0
+keras
+keras-tuner
+protobuf==3.20.*
+-e .
