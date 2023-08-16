@@ -1,5 +1,6 @@
-
-# Sales prediction of a company based on Advertisement data 🐍
+<div align='center'>
+<h1>🐍 Sales Prediction System 🐍</h1>
+</div>
 <div align='center'>
 <img src='https://github.com/software-babooi/ideal-potato-oibsip/assets/110555361/b4fee953-9133-43f7-8e53-ea3a11a3189b'>
 </div>
